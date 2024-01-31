@@ -1,0 +1,33 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide{
+    
+    border: 1px;
+    width: 600px;
+    height: 400px;
+    margin:100px 50px 10px 50px;
+  }
+  .slide-hidden{
+    display: none;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .prev ,.next{
+    background-color: rgb(151, 146, 146);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin: 0 2px 0 2px;
+   }
+   .prev:hover ,.next:hover{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    cursor: pointer;
+   }
